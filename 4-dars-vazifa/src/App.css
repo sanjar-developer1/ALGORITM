@@ -9,6 +9,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
 input[type="number"] {
   -moz-appearance: textfield;
 }
@@ -715,7 +716,7 @@ select {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-~  height: calc(304 / 14.4 * 1vw);
+  height: calc(304 / 14.4 * 1vw);
   padding: calc(30 / 14.4 * 1vw);
   border-radius: calc(15 / 14.4 * 1vw);
   background-color: #0d0d0d;
